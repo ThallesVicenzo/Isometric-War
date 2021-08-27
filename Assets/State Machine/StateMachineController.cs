@@ -30,7 +30,7 @@ public class StateMachineController : MonoBehaviour
 
         T target = GetComponent<T>();
 
-        if(target != null)
+        if(target == null)
             target = gameObject.AddComponent<T>();
 
             return target;

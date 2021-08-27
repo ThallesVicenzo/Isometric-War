@@ -22,27 +22,27 @@ public class Board : MonoBehaviour
 
         grid = GetComponent<Grid>();
     }
-
-    void Start()
+ 
+    public IEnumerator InitSequence(LoadState loadState)
     {
+        yield return StartCoroutine(LoadFloors(loadState));
 
-        InitSequence();
+        yield return null;
+
         Debug.Log("foram criados: " + tiles.Count + " tiles");
 
+        ShadowOrdering();
     }
 
-    public void InitSequence()
-    {
-        LoadFloors();
-    }
-
-    void LoadFloors()
+    IEnumerator LoadFloors(LoadState loadState)
     {
 
         for (int i = 0; i < floors.Count; i++)
         {
 
             List<Vector3Int> floorTiles = floors[i].LoadTiles();
+
+            yield return null;
 
             for (int j = 0; j < floorTiles.Count; j++)
             {

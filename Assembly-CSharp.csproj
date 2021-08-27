@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\Character\Movement.cs" />
      <Compile Include="Assets\State Machine\State.cs" />
      <Compile Include="Assets\State Machine\StateMachineController.cs" />
+     <Compile Include="Assets\State Machine\States\LoadState.cs" />
      <None Include="Assets\3 Party\Assets_DevilsWorkShop\Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04\License.txt" />
      <None Include="Assets\3 Party\LeanTween\ReadMe.txt" />
      <None Include="Assets\3 Party\LeanTween\License.txt" />
