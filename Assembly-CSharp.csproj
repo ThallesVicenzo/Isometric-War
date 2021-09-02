@@ -78,6 +78,7 @@
      <Compile Include="Assets\3 Party\LeanTween\Framework\LeanTest.cs" />
      <Compile Include="Assets\3 Party\LeanTween\Framework\LeanTween.cs" />
      <Compile Include="Assets\3 Party\LeanTween\Framework\LeanTweenExt.cs" />
+     <Compile Include="Assets\IO\InputController.cs" />
      <Compile Include="Assets\Scripts\Board\Board.cs" />
      <Compile Include="Assets\Scripts\Board\Floor.cs" />
      <Compile Include="Assets\Scripts\Board\TileLogic.cs" />
