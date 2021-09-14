@@ -83,6 +83,8 @@
      <Compile Include="Assets\Scripts\Board\Floor.cs" />
      <Compile Include="Assets\Scripts\Board\TileLogic.cs" />
      <Compile Include="Assets\Scripts\Character\Movement.cs" />
+     <Compile Include="Assets\Scripts\ScriptStudy\GetInput.cs" />
+     <Compile Include="Assets\Scripts\ScriptStudy\Somatoria.cs" />
      <Compile Include="Assets\State Machine\State.cs" />
      <Compile Include="Assets\State Machine\StateMachineController.cs" />
      <Compile Include="Assets\State Machine\States\LoadState.cs" />
