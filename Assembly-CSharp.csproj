@@ -81,6 +81,7 @@
      <Compile Include="Assets\IO\InputController.cs" />
      <Compile Include="Assets\Scripts\Board\Board.cs" />
      <Compile Include="Assets\Scripts\Board\Floor.cs" />
+     <Compile Include="Assets\Scripts\Board\Selector.cs" />
      <Compile Include="Assets\Scripts\Board\TileLogic.cs" />
      <Compile Include="Assets\Scripts\Character\Movement.cs" />
      <Compile Include="Assets\Scripts\ScriptStudy\GetInput.cs" />
