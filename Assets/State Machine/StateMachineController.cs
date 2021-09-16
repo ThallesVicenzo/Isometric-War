@@ -10,11 +10,12 @@ public class StateMachineController : MonoBehaviour
     State _current;
     public Transform selector;
     bool busy;
-    public State current{get{return _current;}}
-
+    
     [Header("ChooseActionState")]
     public List<Image> chooseActionButtons;
+    public Image chooseActionSelection;
 
+    public State current{get{return _current;}}
     void Awake(){
         instance = this;
     }
