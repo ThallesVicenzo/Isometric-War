@@ -88,6 +88,7 @@
      <Compile Include="Assets\Scripts\ScriptStudy\Somatoria.cs" />
      <Compile Include="Assets\State Machine\State.cs" />
      <Compile Include="Assets\State Machine\StateMachineController.cs" />
+     <Compile Include="Assets\State Machine\States\ChooseActionState.cs" />
      <Compile Include="Assets\State Machine\States\LoadState.cs" />
      <Compile Include="Assets\State Machine\States\RoamState.cs" />
      <None Include="Assets\UIpack\Spritesheet\greySheet.xml" />
