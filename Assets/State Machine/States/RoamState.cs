@@ -22,7 +22,6 @@ public class RoamState : State
         TileLogic t = Board.GetTile(Selector.instance.position + input);
 
         if(t!=null){
-            Selector.instance.position = t.pos;
 
             Selector.instance.tile = t;
 
@@ -36,8 +35,6 @@ public class RoamState : State
         if(Selector.instance.position == null){
 
             TileLogic t = Board.GetTile(new Vector3Int(0,0,0));
-
-            Selector.instance.position = t.pos;
 
             Selector.instance.tile = t;
 

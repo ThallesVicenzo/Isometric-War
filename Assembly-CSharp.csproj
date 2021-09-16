@@ -90,11 +90,17 @@
      <Compile Include="Assets\State Machine\StateMachineController.cs" />
      <Compile Include="Assets\State Machine\States\LoadState.cs" />
      <Compile Include="Assets\State Machine\States\RoamState.cs" />
+     <None Include="Assets\UIpack\Spritesheet\greySheet.xml" />
      <None Include="Assets\3 Party\Assets_DevilsWorkShop\Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04\License.txt" />
+     <None Include="Assets\UIpack\Spritesheet\greenSheet.xml" />
      <None Include="Assets\3 Party\LeanTween\ReadMe.txt" />
      <None Include="Assets\3 Party\LeanTween\License.txt" />
+     <None Include="Assets\UIpack\Spritesheet\redSheet.xml" />
      <None Include="Assets\3 Party\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
+     <None Include="Assets\UIpack\Spritesheet\blueSheet.xml" />
+     <None Include="Assets\UIpack\Spritesheet\yellowSheet.xml" />
      <None Include="Assets\3 Party\isometric_Mini-Crusader\License.txt" />
+     <None Include="Assets\UIpack\license.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
